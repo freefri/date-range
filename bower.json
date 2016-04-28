@@ -22,9 +22,9 @@
     }
   ],
   "dependencies": {
-      "pikaday-angular": "~2.0",
+      "pikaday-angular": "~2.0"
   },
   "devDependencies": {
-    "angular": "^1.2.0",
+    "angular": "^1.2.0"
   }
 }
