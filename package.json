@@ -1,0 +1,26 @@
+{
+  "name": "date-range",
+  "version": "0.1.1",
+  "description": "An easy date-range based on datepicker",
+  "keywords": [
+    "angular", "date-range", "datepicker"
+  ],
+  "homepage": "https://github.com/freefri/date-range",
+  "bugs": "https://github.com/freefri/date-range/issues",
+  "author": {
+    "name": "Freefri",
+    "email": "github@freefri.es",
+    "url": "https://github.com/freefri"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freefri/date-range.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+  }
+}
