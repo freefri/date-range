@@ -1,6 +1,6 @@
 angular.module('ct.date-range').run(['$templateCache', function($templateCache) {
 
-    $templateCache.put('date-range.html',
+    $templateCache.put('src/date-range.html',
         "<span class=\"date-range\" ng-class=\"{error: error}\">\n" +
         "<input type=\"text\" class=\"beginEnd right pull-right\"\n" +
         "  pikaday=\"endPicker\"\n" +
