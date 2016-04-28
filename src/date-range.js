@@ -1,5 +1,19 @@
 angular.module('ct.date-range', ['pikaday']).directive('dateRange', function ($timeout) {
 
+    Date.prototype.setBeginDay = function () {
+        this.setMilliseconds(0);
+        this.setSeconds(0);
+        this.setMinutes(0);
+        this.setHours(0);
+        return this;
+    };
+    Date.prototype.setEndDay = function () {
+        this.setDate(this.getDate() + 1);
+        this.setBeginDay();
+        this.setSeconds(-1);
+        return this;
+    };
+
     return {
         restrict: 'E',
         replace: true,
