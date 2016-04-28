@@ -6,7 +6,7 @@ angular.module('ct.date-range', ['pikaday']).directive('dateRange', function ($t
         scope: {
             onChange: '='
         },
-        templateUrl: 'templates/directives/date-range.html',
+        templateUrl: 'date-range.html',
         controller: function($scope) {
             var begDate = new Date();
             begDate.setMonth(begDate.getMonth()-1);
