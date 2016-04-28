@@ -1,0 +1,9 @@
+<span class="date-range" ng-class="{error: error}">
+    <input type="text" class="beginEnd right pull-right"
+           pikaday="endPicker"
+           on-select="onDateChange(date, 'end')"/>
+
+    <input type="text" class="beginEnd right pull-right"
+           pikaday="beginPicker"
+           on-select="onDateChange(date, 'begin')"/>
+</span>
